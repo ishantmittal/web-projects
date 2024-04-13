@@ -1,0 +1,681 @@
+body{
+    background-color: #01021e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 90px 90px 90px 90px 90px 90px 90px;
+    grid-template-columns: 140px 140px 140px 140px 140px 140px 140px 140px;
+}
+
+.socialInfo{
+    display: inline;
+    position: fixed;
+    background-color: #01032B;
+    color: lightgray;
+    grid-row: 1 / 8;
+    grid-column: 1 / 3;
+    height: 540px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#contactHeading{
+    color: gray;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: 1000;
+}
+
+#contactPhone{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#contactEmail{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#socialHeading{
+    color: gray;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-weight: 1000;
+}
+
+#socialLinkedIn{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#b1{
+    background-color: #00072D;
+    color: gray;
+    margin-left: 20px;
+}
+
+#socialGitHub{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#b2{
+    background-color: #00072D;
+    color: gray;
+    margin-left: 32px;
+}
+
+#socialTwitter{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#b3{
+    background-color: #00072D;
+    color: gray;
+    margin-left: 32px;
+}
+
+#socialInstagram{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#b4{
+    background-color: #00072D;
+    color: gray;
+    margin-left: 8.5px;
+}
+
+.aboutMe{
+    background-image: url("https://img.freepik.com/premium-photo/abstract-background-colorful-liquid-liner-abstract-texture-liquid-acrylic_7247-2187.jpg?w=900");
+    color: lightgray;
+    grid-row: 1 / 3;
+    grid-column: 3 / 10;
+    height: 180px;
+    width: 930px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#firstName{
+    font-size: 50px;
+    line-height: 8px;
+    margin-left: 60px;
+    padding-top: 8px;
+}
+
+#lastName{
+    font-size: 50px;
+    line-height: 8px;
+    margin-left: 60px;
+}
+
+#summary{
+    margin-top: -135px;
+    margin-left: 300px;
+    margin-right: 70px;
+}
+
+.netflixClone{
+    background-color: black;
+    height: 290px;
+    width: 250px;
+    margin-top: 335px;
+    margin-left: 365px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#text1{
+    background-color: lightgray;
+    height: 110px;
+    margin-top: 180px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#heading1{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 1000;
+}
+
+#para1{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#used1{
+    font-size: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.personalPortfolio{
+    background-color: black;
+    height: 290px;
+    width: 250px;
+    margin-top: 335px;
+    margin-left: 485px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#text2{
+    background-color: lightgray;
+    height: 110px;
+    margin-top: 180px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#heading2{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 1000;
+}
+
+#para2{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#used2{
+    font-size: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.courseManagement{
+    background-color: black;
+    height: 290px;
+    width: 250px;
+    margin-top: 245px;
+    margin-left: 885px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#text3{
+    background-color: lightgray;
+    height: 110px;
+    margin-top: 180px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#heading3{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 1000;
+}
+
+#para3{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#used3{
+    font-size: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.frontend{
+    background-color: #01032B;
+    color: lightgray;
+    height: 330px;
+    width: 140px;
+    margin-top: 640px;
+    margin-left: 210px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#heading4{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 1000;
+}
+
+#html{
+    background-color: #01021e;
+    height: 25px;
+    width: 44px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+#css{
+    background-color: #01021e;
+    height: 25px;
+    width: 30px;
+    border-radius: 5px;
+    margin-top: -35px;
+    margin-left: 70px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+    border: 1px solid goldenrod;
+}
+
+#js{
+    background-color: #01021e;
+    height: 25px;
+    width: 75px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+    border: 1px solid goldenrod;
+}
+
+#react{
+    background-color: #01021e;
+    height: 25px;
+    width: 65px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.languages{
+    background-color: #01032B;
+    color: lightgray;
+    height: 330px;
+    width: 140px;
+    margin-top: 550px;
+    margin-left: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#heading5{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 1000;
+}
+
+#py{
+    background-color: #01021e;
+    height: 25px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+#cLang{
+    background-color: #01021e;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+    border: 1px solid goldenrod;
+}
+
+#cpp{
+    background-color: #01021e;
+    height: 25px;
+    width: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+    border: 1px solid goldenrod;
+}
+
+#java{
+    background-color: #01021e;
+    height: 25px;
+    width: 35px;
+    border-radius: 5px;
+    margin-top: -35px;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.technicals{
+    background-color: #01032B;
+    color: lightgray;
+    height: 330px;
+    width: 140px;
+    margin-top: 550px;
+    margin-left: 510px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#heading6{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 1000;
+}
+
+#dsa{
+    background-color: #01021e;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+#ada{
+    background-color: #01021e;
+    height: 60px;
+    width: 85px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+    border: 1px solid goldenrod;
+}
+
+.softskills{
+    background-color: #01032B;
+    color: lightgray;
+    height: 330px;
+    width: 140px;
+    margin-top: 550px;
+    margin-left: 520px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#heading7{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 1000;
+}
+
+#communication{
+    background-color: #01021e;
+    height: 25px;
+    width: 105px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+#activeListening{
+    background-color: #01021e;
+    height: 25px;
+    width: 105px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+#quickLearner{
+    background-color: #01021e;
+    height: 25px;
+    width: 95px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+    border: 1px solid goldenrod;
+}
+
+#adaptability{
+    background-color: #01021e;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+    border: 1px solid goldenrod;
+}
+
+#teamwork{
+    background-color: #01021e;
+    height: 25px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+#presentation{
+    background-color: #01021e;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 12px;
+    border: 1px solid goldenrod;
+}
+
+.education{
+    background-color: #01032B;
+    color: lightgray;
+    height: 750px;
+    width: 210px;
+    margin-top: 500px;
+    margin-left: 590px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#edHeading{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 1000;
+    padding-top: 5px;
+}
+
+#qual1{
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#from1{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+#cgpa1{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+#qual2{
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#from2{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+#cgpa2{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+#qual3{
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#from3{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+#cgpa3{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.java{
+    background-color: black;
+    height: 200px;
+    width: 290px;
+    margin-top: 990px;
+    margin-left: -210px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#text4{
+    background-color: lightgray;
+    height: 200px;
+    width: 135px;
+    margin-top: -15px;
+    margin-left: 155px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 15px;
+}
+
+#exp1{
+    padding-top: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#by1{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.dsa{
+    background-color: black;
+    height: 200px;
+    width: 290px;
+    margin-top: 990px;
+    margin-left: -50px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#text5{
+    background-color: lightgray;
+    height: 200px;
+    width: 135px;
+    margin-top: -15px;
+    margin-left: 155px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 15px;
+}
+
+#exp2{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#by2{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.web{
+    background-color: black;
+    height: 200px;
+    width: 290px;
+    margin-top: 1200px;
+    margin-left: -490px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#text6{
+    background-color: lightgray;
+    height: 200px;
+    width: 135px;
+    margin-top: -15px;
+    margin-left: 155px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 15px;
+}
+
+#exp3{
+    padding-top: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#by3{
+    font-size: 12px;
+    padding-left: 10px;
+}
